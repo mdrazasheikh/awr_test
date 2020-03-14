@@ -1,18 +1,19 @@
 <h2>Installation</h2>
 This is a manual installation version. Please refer to the docker repo for docker instructions.
-[Go to the docker repo.](https://github.com/mdrazasheikh/awr_test_docker)
+
+[Go to the docker repo](https://github.com/mdrazasheikh/awr_test_docker).
 
 PS: This version was created because of slowness issues with the docker version
  
-<h4>Requirements:</h4>
+### Requirements:
 * PHP - 7.1.x, 7.2.x, 7.3.x
 * Nginx
 * Mysql - 5.7.x
 * composer
 
-[Detailed Magento System Requirements here](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html).
+[Detailed Magento System Requirements here](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
 
-<h4>Instructions<h4>
+### Instructions
 * Checkout the code to/your/local/path
 * Create a database by name <code>magento</code> in mysql
 * Import the database script in the root by the name <code>magento_sql_script.sql</code>
@@ -25,7 +26,7 @@ PS: This version was created because of slowness issues with the docker version
 
 PS: It is assumed that the following is run from within the root folder of the app
 
-<h4>Assumptions<h4>
+### Assumptions
 * Vehicles are loaded via cron job once a day at 1AM
 * Vehicles can be pulled manually via front API : <code>{domain}:{port}/autotrustimporter/index</code>
 * Only non reserved vehicle are shown in the listing
