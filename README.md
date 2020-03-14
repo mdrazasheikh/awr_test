@@ -23,6 +23,7 @@ PS: This version was created because of slowness issues with the docker version
 * Default db config : <code>user:root; password:''; database:magento; host:localhost; port:3306</code>
 * <code>base_url</code> is : <code>http://mage.local.mine</code>. Change this in the database if necessary to support your local environment. <code>core-config-data -> base_url & secure_base_url</code>
 * Flush the magento cache on db changes either from admin control panel or CLI. <code>($ bin/magento cache:clean)</code>
+* Create a folder by name <code>tmp</code> on path <code>pub/media</code> if not already exists.
 
 PS: It is assumed that the above steps are run from within the root folder of the app
 
