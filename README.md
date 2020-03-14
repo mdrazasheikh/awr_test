@@ -32,6 +32,7 @@ PS: It is assumed that the above steps are run from within the root folder of th
 * Only non reserved vehicle are shown in the listing
 * Not all the options available with the APIs are shown to Customer
 * Products are taken into account as simple products
+* All the products are assigned to <code>Preowned vehicles</code> category. The landing page is not configured to show any products. Click on the <code>Preowned vehicles</code> to load the active vehicle list
  
 ## License
 
